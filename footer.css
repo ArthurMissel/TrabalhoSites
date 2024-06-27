@@ -1,0 +1,199 @@
+.footer{
+    background-color: #253C59;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footerItens{
+    padding-left: 60px;
+    width: 100%;
+    display: flex;
+}
+.footerImg{
+    margin-right: 200px;
+    width: 130px;
+    margin-left: 50px;
+}
+
+.empresa{
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.empresaTitulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+.empresaTexto{
+    color: #99B4BF;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 23px;
+
+}
+.empresaTexto:hover{
+    color: #5D7A8C;
+}
+.empresaSobre{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.empresaSobre:hover{
+    color: #5D7A8C;
+}
+.empresaContato{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.empresaContato:hover{
+    text-decoration: none;
+    color: #5D7A8C;
+}
+.empresaNsei{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.empresaNsei:hover{
+    text-decoration: none;
+    color: #5D7A8C;
+}
+
+
+.social{
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.socialTitulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+.socialTexto{
+    color: #99B4BF;
+    font-size: 20px;
+    line-height: 23px;
+}
+.socialInstagram{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.socialInstagram:hover{
+    color: #5D7A8C;
+}
+.socialFacebook{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.socialFacebook:hover{
+    color: #5D7A8C;
+}
+.socialTwitter{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.socialTwitter:hover{
+    color: #5D7A8C;
+}
+
+
+.suporte{
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.suporteTitulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+.suporteTexto{
+    color: #99B4BF;
+    font-size: 20px;
+    line-height: 23px;
+}
+.suporte1{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.suporte1:hover{
+    color: #5D7A8C;
+}
+.suporte2{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.suporte2:hover{
+    color: #5D7A8C;
+}
+.suporte3{
+    text-decoration: none;
+    color: #99B4BF;
+}
+.suporte3:hover{
+    color: #5D7A8C;
+}
+
+@media(max-width:1024px){
+    .footer{
+        width: 100%;
+    }
+    .empresa{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .suporte{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .social{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .footerImg{
+        margin: 30px;
+        padding: 0;
+    }
+    
+}
+
+
+@media(max-width:820px){
+
+    .footer{
+        width: 100%;
+    }
+
+    .empresa{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .suporte{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .social{
+        margin: 30px;
+        padding: 0;
+    }
+
+    .footerImg{
+        margin: 30px;
+        padding: 0;
+    }
+}
+

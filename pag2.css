@@ -1,0 +1,208 @@
+body{
+    background-color: #99B4BF;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    background-color: #5D7A8C;
+    height: 135px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 290px;
+    height: 1250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.filtros{
+    background-color: #5D7A8C;
+    width: 180px;
+    height: 220px;
+    margin-top: 65px;
+    border: solid 3px #253C59;
+}
+.filtrosTitulo{
+    height: 35px;
+    background-color: #253C59;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.filtrosTexto{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.filtrosCaverna{
+    margin-bottom: 10px;
+}
+.filtrosCaverna:hover{
+    background-color: #253C59;
+}
+.filtrosPraia{
+    margin-bottom: 10px;
+}
+.filtrosPraia:hover{
+    background-color: #253C59;
+}
+
+.filtrosMontanha{
+    margin-bottom: 10px;
+}
+.filtrosMontanha:hover{
+    background-color: #253C59;
+}
+.filtrosLagos{
+    margin-bottom: 10px;
+}
+.filtrosLagos:hover{
+    background-color: #253C59;
+}
+
+.locais{
+    margin-top: 65px;
+    margin-left: 30px;
+    display: flex;
+}
+.locaisImagens{
+    width: 521px;
+    height: 266px;
+
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+.locaisCopacabana{
+    margin-right: 70px;
+}
+.linha2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+.locaisChapada{
+    margin-right: 70px;
+}
+.linha3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+}
+.locaisJoao{
+    margin-right: 70px;
+}
+.botaoCarregar{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 1100px;
+}
+.carregar{
+    text-decoration: none;
+    color: white;
+    background-color: #253C59;
+    padding: 20px;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.headerLocais{
+    background-color: #5D7A8C;
+}
+
+@media(max-width:820px){
+    .locais{
+        margin-left: 0;
+        margin-right: 30px;
+        margin-top: 35px;
+        margin-bottom: 1700px;
+        flex-direction: column;
+    }
+    .linha1{
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+    .locaisCopacabana{
+        margin-bottom: 50px;
+    }
+    .linha2{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .locaisChapada{
+        margin-bottom: 50px;
+    }
+    .linha3{
+        flex-direction: column;
+    }
+    .locaisJoao{
+        margin-bottom: 50px;
+    }
+    aside{
+        width: 225px;
+    }
+    .filtros{
+        margin: 35px;
+    }
+}
+
+@media(max-width:768px){
+    .locais{
+        margin-left: 0;
+        margin-top: 35px;
+        margin-bottom: 1700px;
+        flex-direction: column;
+        width: 768px;
+    }
+    .linha1{
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+    .locaisCopacabana{
+        margin-bottom: 50px;
+    }
+    .linha2{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .locaisChapada{
+        margin-bottom: 50px;
+    }
+    .linha3{
+        flex-direction: column;
+    }
+    .locaisJoao{
+        margin-bottom: 50px;
+    }
+    aside{
+        width: 170px;
+        
+    }
+    .filtrosTexto{
+        font-size: 18px;
+    }
+    .filtrosTitulo{
+        font-size: 20px;
+    }
+}
